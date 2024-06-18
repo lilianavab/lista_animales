@@ -1,0 +1,30 @@
+form {
+    font-family: 'Tajawal', sans-serif;
+}
+
+#resultado {
+    display: none; 
+    border: 2px solid black;
+    padding: 10px; 
+    margin-bottom: 20px;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+#resultado.mostrar {
+    display: block; 
+}
+
+#resultado h5 {
+    margin-top: 0; 
+}
+
+#resultadoLista {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#resultadoLista li {
+    margin-bottom: 10px;
+}
